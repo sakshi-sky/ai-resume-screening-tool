@@ -49,7 +49,6 @@ A project for parsing and ranking resumes based on how well they match a given j
 
 **ai-resume-screening-tool/**
 
-│
 ├── app.py                 # Main Streamlit application
 
 ├── resume_parser.py       # Resume parsing functionality
@@ -63,7 +62,6 @@ A project for parsing and ranking resumes based on how well they match a given j
 └── sample_data/          # Folder for sample resumes
 
     ├── sample_job.txt
-    
     └── resumes/
 
 
