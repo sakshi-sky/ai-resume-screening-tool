@@ -1,34 +1,35 @@
 # ai-resume-screening-tool
 A project for parsing and ranking resumes based on how well they match a given job description. 
 
-Features
+#Features
 
-Smart Resume Parsing: Extract structured data from PDF and DOCX files
+- Smart Resume Parsing: Extract structured data from PDF and DOCX files
 
-AI-Powered Matching: TF-IDF vectorization and cosine similarity for job compatibility
+- AI-Powered Matching: TF-IDF vectorization and cosine similarity for job compatibility
 
-Skill Analysis: Automated identification and matching of technical and soft skills
+- Skill Analysis: Automated identification and matching of technical and soft skills
 
-Batch Processing: Handle multiple resumes simultaneously
+- Batch Processing: Handle multiple resumes simultaneously
 
-Export Results: Download rankings in Excel/CSV format
+- Export Results: Download rankings in Excel/CSV format
 
 
-Technology Stack
+#Technology Stack
 
-Backend: Python 3.8+
+- Backend: Python 3.8+
 
-NLP: spaCy, scikit-learn (TF-IDF, Cosine Similarity)
+- NLP: spaCy, scikit-learn (TF-IDF, Cosine Similarity)
 
-File Processing: PyPDF2, python-docx
+- File Processing: PyPDF2, python-docx
 
-Data Analysis: pandas, NumPy
+- Data Analysis: pandas, NumPy
 
-Visualization: Plotly
+- Visualization: Plotly
 
-Web Framework: Streamlit
+- Web Framework: Streamlit
 
-Installation
+
+#Installation
 
 Prerequisites
 - Python 3.8 or higher
@@ -50,14 +51,22 @@ Setup
 Project Structure
 
 ai-resume-screening/
+
 │
 ├── app.py                 # Main Streamlit application
+
 ├── resume_parser.py       # Resume parsing functionality
+
 ├── job_matcher.py         # Job matching and similarity logic
+
 ├── utils.py              # Utility functions
+
 ├── requirements.txt      # Dependencies
+
 └── sample_data/          # Folder for sample resumes
+
     ├── sample_job.txt
+    
     └── resumes/
 
 Made with Python and Streamlit
