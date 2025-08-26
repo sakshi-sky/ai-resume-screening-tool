@@ -47,7 +47,7 @@ A project for parsing and ranking resumes based on how well they match a given j
 
 **Project Structure**
 
-ai-resume-screening/
+**ai-resume-screening-tool/**
 
 │
 ├── app.py                 # Main Streamlit application
