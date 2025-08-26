@@ -1,7 +1,7 @@
 # ai-resume-screening-tool
 A project for parsing and ranking resumes based on how well they match a given job description. 
 
-#Features
+**Features**
 
 - Smart Resume Parsing: Extract structured data from PDF and DOCX files
 
@@ -14,7 +14,7 @@ A project for parsing and ranking resumes based on how well they match a given j
 - Export Results: Download rankings in Excel/CSV format
 
 
-#Technology Stack
+**Technology Stack**
 
 - Backend: Python 3.8+
 
@@ -29,13 +29,13 @@ A project for parsing and ranking resumes based on how well they match a given j
 - Web Framework: Streamlit
 
 
-#Installation
+**Installation**
 
-Prerequisites
-- Python 3.8 or higher
-- pip package manager
+- Prerequisites
+   - Python 3.8 or higher
+   - pip package manager
 
-Setup
+- Setup
 
 1. Clone the repository
 
@@ -48,7 +48,7 @@ Setup
 4. Run the application
    bashstreamlit run app.py
 
-Project Structure
+**Project Structure**
 
 ai-resume-screening/
 
