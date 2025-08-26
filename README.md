@@ -4,18 +4,28 @@ A project for parsing and ranking resumes based on how well they match a given j
 Features
 
 Smart Resume Parsing: Extract structured data from PDF and DOCX files
+
 AI-Powered Matching: TF-IDF vectorization and cosine similarity for job compatibility
+
 Skill Analysis: Automated identification and matching of technical and soft skills
+
 Batch Processing: Handle multiple resumes simultaneously
+
 Export Results: Download rankings in Excel/CSV format
+
 
 Technology Stack
 
 Backend: Python 3.8+
+
 NLP: spaCy, scikit-learn (TF-IDF, Cosine Similarity)
+
 File Processing: PyPDF2, python-docx
+
 Data Analysis: pandas, NumPy
+
 Visualization: Plotly
+
 Web Framework: Streamlit
 
 Installation
