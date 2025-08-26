@@ -39,14 +39,11 @@ A project for parsing and ranking resumes based on how well they match a given j
 
 1. Clone the repository
 
-2. Install dependencies
-   bashpip install -r requirements.txt
+2. Install dependencies: pip install -r requirements.txt
 
-3. Download spaCy language model
-   bashpython -m spacy download en_core_web_sm
+3. Download spaCy language model: python -m spacy download en_core_web_sm
 
-4. Run the application
-   bashstreamlit run app.py
+4. Run the application: streamlit run app.py
 
 **Project Structure**
 
@@ -68,5 +65,6 @@ ai-resume-screening/
     ├── sample_job.txt
     
     └── resumes/
+
 
 Made with Python and Streamlit
