@@ -3,11 +3,11 @@ A project for parsing and ranking resumes based on how well they match a given j
 
 Features
 
--Smart Resume Parsing: Extract structured data from PDF and DOCX files
--AI-Powered Matching: TF-IDF vectorization and cosine similarity for job compatibility
--Skill Analysis: Automated identification and matching of technical and soft skills
--Batch Processing: Handle multiple resumes simultaneously
--Export Results: Download rankings in Excel/CSV format
+Smart Resume Parsing: Extract structured data from PDF and DOCX files
+AI-Powered Matching: TF-IDF vectorization and cosine similarity for job compatibility
+Skill Analysis: Automated identification and matching of technical and soft skills
+Batch Processing: Handle multiple resumes simultaneously
+Export Results: Download rankings in Excel/CSV format
 
 Technology Stack
 
